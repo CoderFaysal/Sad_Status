@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SadStatus" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#CA4341</item>
+    </style>
+
+    <style name="Theme.SadStatus" parent="Base.Theme.SadStatus" />
+
+    <style name="TOOLBAR">
+        <item name="android:background">@color/main</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="MAIN_BG">
+        <item name="android:background">@color/main_bg</item>
+    </style>
+
+
+    <style name="CARD_VIEW">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+
+    <style name="TEXT">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="ICON">
+        <item name="android:tint">@color/main</item>
+    </style>
+
+
+
+
+</resources>
